@@ -1,0 +1,17 @@
+# src/config/envs.yaml
+env: SSD
+
+env_args:
+  scenario_name: 'cleanup'  # 可以根据需要更改
+  # scenario_name: harvest
+  # scenario_name: switch
+  more_com: True
+  num_agents: 5  # 根据具体环境调整
+  seed: null
+  use_collective_reward: False
+  inequity_averse_reward: False
+  alpha: 0.0
+  beta: 0.0
+  num_switches: 6
+  episode_limit: 1000
+
