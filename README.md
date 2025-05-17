@@ -1,4 +1,4 @@
-# QPC
-This is a code of QPC.
+# USE
+This is a code of USE.
 
-To train QPC, simply execute the main.py script directly.
+To train USE(QPC), simply execute the main.py script directly.
