@@ -92,7 +92,7 @@ if __name__ == '__main__':
     params = deepcopy(sys.argv)
 
     params.append("--env-config=SSD") 
-    params.append("--config=QPC")
+    params.append("--config=USE")
 
     # Get the defaults from default.yaml
     with open(os.path.join(os.path.dirname(__file__), "config", "default.yaml"), "r") as f:
